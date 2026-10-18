@@ -2,634 +2,386 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title>Get a $750 Target Gift Card | Rewards Club</title>
-  <meta name="description" content="Complete a few simple partner offers and get a $750 Target gift card delivered to your inbox.">
-  <meta name="theme-color" content="#cc0000">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complete Your Registration – $500 Old Navy Gift Card</title>
   <style>
-    :root {
-      --target: #cc0000;
-      --target-dark: #a80000;
-      --target-light: #e31c23;
-      --surface: #ffffff;
-      --page: #f5f5f5;
-      --ink: #1a1a1a;
-      --body: #4a5568;
-      --muted: #718096;
-      --border: #e2e8f0;
-      --status: #22c55e;
-    }
-
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
-      font-family: 'Mulish', system-ui, sans-serif;
-      background: var(--page);
-      color: var(--ink);
-      line-height: 1.5;
-      -webkit-font-smoothing: antialiased;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f4f6f9;
+      color: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px 16px;
     }
 
-    .font-display { font-family: 'Archivo', sans-serif; }
+    .card {
+      width: 100%;
+      max-width: 520px;
+      background: #ffffff;
+      border-radius: 16px;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+      overflow: hidden;
+    }
 
-    /* Header */
-    header {
-      background: var(--target);
-      height: 44px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 24px;
-      max-width: 448px;
-      margin: 0 auto;
+    .content {
+      padding: 40px 36px 32px;
     }
 
     .logo {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      color: white;
-      font-family: 'Archivo', sans-serif;
-      font-weight: 800;
-      font-size: 22px;
+      width: 180px;
+      height: auto;
+      margin: 0 auto 22px;
+      display: block;
     }
 
-    .logo-circle {
-      width: 28px;
-      height: 28px;
-      border-radius: 50%;
-      background: white;
-      position: relative;
-    }
-    .logo-circle::before {
-      content: '';
-      position: absolute;
-      inset: 4px;
-      border-radius: 50%;
-      background: var(--target);
-    }
-    .logo-circle::after {
-      content: '';
-      position: absolute;
-      inset: 9px;
-      border-radius: 50%;
-      background: white;
-    }
-
-    .live-badge {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      background: rgba(255,255,255,0.15);
-      padding: 6px 14px;
-      border-radius: 999px;
-      color: white;
-      font-size: 11px;
-      font-weight: 800;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-    }
-    .live-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: var(--status);
-    }
-
-    /* Main container */
-    main {
-      max-width: 448px;
-      margin: 0 auto;
-      background: var(--surface);
-      min-height: 100vh;
-    }
-
-    /* Hero */
-    .hero {
-      padding: 40px 24px 32px;
+    h1 {
       text-align: center;
-      background: white;
-    }
-
-    .gift-card {
-      width: 220px;
-      height: 140px;
-      margin: 0 auto 28px;
-      background: linear-gradient(135deg, #e31c23 0%, #cc0000 50%, #a80000 100%);
-      border-radius: 16px;
-      box-shadow: 0 20px 40px -12px rgba(204,0,0,0.4);
-      position: relative;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      padding: 18px 20px;
-      color: white;
-    }
-    .gift-card::before {
-      content: '';
-      position: absolute;
-      top: -40px;
-      right: -40px;
-      width: 140px;
-      height: 140px;
-      border-radius: 50%;
-      background: rgba(255,255,255,0.12);
-    }
-    .gift-card::after {
-      content: '';
-      position: absolute;
-      bottom: -30px;
-      left: -30px;
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      background: rgba(255,255,255,0.08);
-    }
-    .gc-top {
-      font-size: 11px;
+      font-size: 32px;
       font-weight: 700;
-      letter-spacing: 0.12em;
-      opacity: 0.9;
-    }
-    .gc-amount {
-      font-family: 'Archivo', sans-serif;
-      font-size: 48px;
-      font-weight: 900;
-      line-height: 1;
-      position: relative;
-      z-index: 1;
-    }
-    .gc-bottom {
-      font-size: 11px;
-      opacity: 0.8;
-    }
-
-    .hero h1 {
-      font-family: 'Archivo', sans-serif;
-      font-size: 28px;
-      font-weight: 800;
-      line-height: 1.2;
+      color: #003764;
+      letter-spacing: -0.5px;
       margin-bottom: 12px;
     }
-    .hero h1 span { color: var(--target); }
 
-    .hero p {
-      color: var(--body);
+    .subtitle {
+      text-align: center;
       font-size: 15px;
-      margin-bottom: 24px;
-      max-width: 320px;
-      margin-left: auto;
-      margin-right: auto;
+      color: #6b7280;
+      margin-bottom: 32px;
+      line-height: 1.5;
     }
 
-    .cta {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      background: linear-gradient(90deg, var(--target-light), var(--target));
-      color: white;
-      font-family: 'Archivo', sans-serif;
-      font-weight: 700;
-      font-size: 15px;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      padding: 16px 32px;
-      border-radius: 999px;
-      border: none;
-      cursor: pointer;
-      box-shadow: 0 10px 25px -5px rgba(204,0,0,0.45);
-      transition: transform 0.15s, box-shadow 0.15s;
-      width: 100%;
-      max-width: 340px;
-      text-decoration: none;
-    }
-    .cta:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 14px 30px -5px rgba(204,0,0,0.5);
-    }
-    .cta:active { transform: scale(0.98); }
-
-    .terms {
-      margin-top: 12px;
-      font-size: 12px;
-      color: var(--muted);
+    .subtitle strong {
+      color: #111;
+      font-weight: 600;
     }
 
-    /* How it works */
-    .steps-section {
-      padding: 32px 24px 40px;
-      background: #fafafa;
-    }
-    .steps-label {
-      font-size: 12px;
-      font-weight: 700;
-      color: var(--target);
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      margin-bottom: 6px;
-    }
-    .steps-section h2 {
-      font-family: 'Archivo', sans-serif;
-      font-size: 24px;
-      font-weight: 800;
-      margin-bottom: 24px;
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 28px;
     }
 
     .step {
       display: flex;
+      align-items: center;
       gap: 16px;
-      margin-bottom: 16px;
-      position: relative;
+      background: #f8fafc;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 16px 18px;
     }
-    .step:not(:last-child)::after {
-      content: '';
-      position: absolute;
-      left: 17px;
-      top: 40px;
-      bottom: -16px;
-      width: 2px;
-      background: #fecaca;
-    }
+
     .step-num {
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      background: var(--target);
+      width: 32px;
+      height: 32px;
+      background: #003764;
       color: white;
-      font-weight: 800;
-      font-size: 15px;
+      border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      flex-shrink: 0;
-      z-index: 1;
-    }
-    .step-box {
-      background: white;
-      border: 1px solid #fee2e2;
-      border-radius: 12px;
-      padding: 14px 16px;
       font-size: 14px;
-      color: var(--body);
-      flex: 1;
+      font-weight: 700;
+      flex-shrink: 0;
     }
 
-    /* Feedback */
-    .feedback {
-      padding: 32px 24px 24px;
-      background: white;
+    .step-text {
+      font-size: 14.5px;
+      color: #4b5563;
+      line-height: 1.4;
     }
-    .feedback-header {
+
+    .step-text strong {
+      color: #111;
+      font-weight: 600;
+    }
+
+    .claim-btn {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
+      width: 100%;
+      height: 56px;
+      background: #003764;
+      color: white;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 999px;
+      transition: background 0.2s, transform 0.15s;
+      margin-bottom: 16px;
+    }
+
+    .claim-btn:hover {
+      background: #002a4d;
+      transform: translateY(-1px);
+    }
+
+    .disclaimer {
+      text-align: center;
+      font-size: 12.5px;
+      color: #6b7280;
+      line-height: 1.5;
       margin-bottom: 20px;
     }
-    .feedback-header h3 {
+
+    .live-feed {
       display: flex;
       align-items: center;
       gap: 8px;
-      font-family: 'Archivo', sans-serif;
-      font-size: 18px;
-      font-weight: 800;
+      background: #f0f7ff;
+      border: 1px solid #dbeafe;
+      border-radius: 10px;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #1e40af;
+      margin-bottom: 28px;
+      transition: opacity 0.3s;
     }
-    .feedback-header .live {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 12px;
-      font-weight: 700;
-      color: var(--status);
-    }
-    .feedback-header .live::before {
-      content: '';
+
+    .live-dot {
       width: 8px;
       height: 8px;
+      background: #22c55e;
       border-radius: 50%;
-      background: var(--status);
-    }
-
-    .comment-input {
-      display: flex;
-      gap: 12px;
-      margin-bottom: 24px;
-    }
-    .avatar {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background: #fecaca;
-      color: var(--target);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 700;
-      font-size: 13px;
       flex-shrink: 0;
     }
-    .comment-input input {
-      flex: 1;
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      padding: 10px 18px;
-      font-size: 14px;
-      outline: none;
-      color: var(--muted);
+
+    .divider {
+      height: 1px;
+      background: #e5e7eb;
+      margin: 0 36px 28px;
     }
 
-    .comment {
-      display: flex;
-      gap: 12px;
-      margin-bottom: 20px;
+    .faq-section {
+      padding: 0 36px 28px;
     }
-    .comment-body {
-      background: #f8fafc;
-      border-radius: 16px;
-      padding: 12px 16px;
-      flex: 1;
-    }
-    .comment-meta {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 4px;
-    }
-    .comment-name {
+
+    .faq-title {
+      font-size: 20px;
       font-weight: 700;
-      font-size: 14px;
-      color: var(--target);
-    }
-    .comment-time {
-      font-size: 12px;
-      color: var(--muted);
-    }
-    .comment-text {
-      font-size: 14px;
-      color: var(--body);
-      margin-bottom: 8px;
-    }
-    .likes {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      font-size: 13px;
-      color: var(--muted);
-      background: white;
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      padding: 4px 10px;
-    }
-
-    .load-more {
-      width: 100%;
-      padding: 12px;
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      background: white;
-      font-size: 14px;
-      color: var(--body);
-      cursor: pointer;
-      margin-top: 8px;
-    }
-
-    /* Bottom CTA */
-    .bottom-cta {
-      padding: 16px 24px 32px;
-      background: white;
-    }
-
-    /* Footer */
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 32px 24px;
-      max-width: 448px;
-      margin: 0 auto;
-      background: white;
-    }
-    .footer-brand {
-      display: flex;
-      align-items: center;
-      gap: 12px;
+      color: #003764;
       margin-bottom: 16px;
     }
-    .footer-logo {
-      background: var(--target);
-      padding: 6px 10px;
-      border-radius: 6px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      color: white;
-      font-family: 'Archivo', sans-serif;
-      font-weight: 800;
-      font-size: 13px;
-    }
-    .footer-logo .dot {
-      width: 14px;
-      height: 14px;
-      border-radius: 50%;
-      background: white;
-      position: relative;
-    }
-    .footer-logo .dot::before {
-      content: '';
-      position: absolute;
-      inset: 2px;
-      border-radius: 50%;
-      background: var(--target);
-    }
-    .footer-logo .dot::after {
-      content: '';
-      position: absolute;
-      inset: 5px;
-      border-radius: 50%;
-      background: white;
-    }
-    .footer-title {
-      font-family: 'Archivo', sans-serif;
-      font-size: 18px;
-      font-weight: 800;
-    }
-    footer p {
-      font-size: 12px;
-      color: var(--muted);
-      line-height: 1.6;
-      margin-top: 8px;
+
+    .faq-item {
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      overflow: hidden;
     }
 
-    /* Scroll to top */
-    .scroll-top {
-      position: fixed;
-      bottom: 24px;
-      right: 24px;
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      background: var(--target);
-      color: white;
-      border: none;
-      font-size: 20px;
-      cursor: pointer;
-      box-shadow: 0 4px 12px rgba(204,0,0,0.4);
+    .faq-question {
+      width: 100%;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
+      padding: 14px 16px;
+      background: #fff;
+      border: none;
+      font-size: 14.5px;
+      font-weight: 500;
+      color: #1a1a1a;
+      cursor: pointer;
+      text-align: left;
+    }
+
+    .faq-question:hover {
+      background: #f9fafb;
+    }
+
+    .chevron {
+      width: 18px;
+      height: 18px;
+      color: #9ca3af;
+      transition: transform 0.2s;
+      flex-shrink: 0;
+    }
+
+    .faq-item.open .chevron {
+      transform: rotate(180deg);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.25s ease, padding 0.25s ease;
+      font-size: 14px;
+      color: #4b5563;
+      line-height: 1.5;
+      padding: 0 16px;
+    }
+
+    .faq-item.open .faq-answer {
+      max-height: 120px;
+      padding: 0 16px 14px;
+    }
+
+    .footer-note {
+      text-align: center;
+      font-size: 12px;
+      color: #9ca3af;
+      padding: 16px 36px 24px;
+      border-top: 1px solid #f3f4f6;
+      line-height: 1.4;
+    }
+
+    @media (max-width: 480px) {
+      .content { padding: 32px 24px 24px; }
+      h1 { font-size: 26px; }
+      .faq-section { padding: 0 24px 24px; }
+      .footer-note { padding: 16px 24px 20px; }
     }
   </style>
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <div class="logo-circle"></div>
-      Target
+  <div class="card">
+    <div class="content">
+      <!-- Logo matching the provided image -->
+      <svg class="logo" viewBox="0 0 320 70" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="160" cy="35" rx="155" ry="32" fill="#003366"/>
+        <text x="160" y="43" text-anchor="middle" 
+              font-family="Arial Black, Helvetica Neue, Arial, sans-serif" 
+              font-size="28" font-weight="900" fill="#FFFFFF" letter-spacing="2">
+          OLD NAVY
+        </text>
+      </svg>
+
+      <h1>Complete Your Registration</h1>
+      <p class="subtitle">Follow these simple steps to claim your <strong>$500 Old Navy gift card</strong></p>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-text">Click on <strong>"Claim Now"</strong></div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-text">Enter your email and basic info</div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-text">Complete 3-5 sponsored deals</div>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <div class="step-text">Enjoy your <strong>$500 gift card!</strong></div>
+        </div>
+      </div>
+
+      <a href="https://giftclick.org/aff_c?offer_id=2567&aff_id=145283" class="claim-btn">CLAIM NOW</a>
+
+      <p class="disclaimer">By clicking "Claim Now", you agree to complete the required steps to receive your gift card.</p>
+
+      <div class="live-feed" id="liveFeed">
+        <div class="live-dot"></div>
+        <span id="liveText">Jessica M. from Texas just claimed her $500 gift card • 2 min ago</span>
+      </div>
     </div>
-    <div class="live-badge">
-      <span class="live-dot"></span>
-      Live
-    </div>
-  </header>
 
-  <main>
-    <!-- Hero -->
-    <section class="hero">
-      <div class="gift-card">
-        <div class="gc-top">GIFT CARD<br>target.com</div>
-        <div class="gc-amount">$750</div>
-        <div class="gc-bottom">target.com balance</div>
-      </div>
+    <div class="divider"></div>
 
-      <h1>Get a <span>$750</span> Target gift<br>card today</h1>
-      <p>Complete a few simple partner offers and get a $750 Target gift card delivered to your inbox.</p>
+    <div class="faq-section">
+      <h2 class="faq-title">Frequently Asked Questions</h2>
 
-      <a href="https://giftclick.org/aff_c?offer_id=1177&aff_id=145283" class="cta" target="_blank" rel="noopener">
-        START NOW →
-      </a>
-      <p class="terms">Partner offers required. Terms apply.</p>
-    </section>
-
-    <!-- How it works -->
-    <section class="steps-section">
-      <div class="steps-label">3 Simple Steps</div>
-      <h2>How it works</h2>
-
-      <div class="step">
-        <div class="step-num">1</div>
-        <div class="step-box">Tap the claim button below to open the partner offer page.</div>
-      </div>
-      <div class="step">
-        <div class="step-num">2</div>
-        <div class="step-box">Complete a few simple partner offers to unlock your gift card.</div>
-      </div>
-      <div class="step">
-        <div class="step-num">3</div>
-        <div class="step-box">Enter your email to receive your Target gift card.</div>
-      </div>
-    </section>
-
-    <!-- Feedback / Comments -->
-    <section class="feedback">
-      <div class="feedback-header">
-        <h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+      <div class="faq-item">
+        <button class="faq-question">
+          How long do the deals take?
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="m6 9 6 6 6-6"/>
           </svg>
-          Feedback
-        </h3>
-        <div class="live">LIVE</div>
-      </div>
-
-      <div class="comment-input">
-        <div class="avatar">You</div>
-        <input type="text" placeholder="Write a comment..." disabled>
-      </div>
-
-      <div class="comment">
-        <div class="avatar" style="background:#fce7f3;color:#be185d;">ET</div>
-        <div class="comment-body">
-          <div class="comment-meta">
-            <span class="comment-name">Emma T.</span>
-            <span class="comment-time">2h</span>
-          </div>
-          <div class="comment-text">Got my DJI Osmo Pocket 3 for only $30 out of pocket. My wallet is still in shock 😂</div>
-          <div class="likes">👍 88</div>
+        </button>
+        <div class="faq-answer">
+          Most deals take only a few minutes each. The entire process is typically finished in a short time, depending on the offers you select.
         </div>
       </div>
 
-      <div class="comment">
-        <div class="avatar" style="background:#e0e7ff;color:#4338ca;">SR</div>
-        <div class="comment-body">
-          <div class="comment-meta">
-            <span class="comment-name">Sophie R.</span>
-            <span class="comment-time">3h</span>
-          </div>
-          <div class="comment-text">Finally picked up the DJI Osmo Pocket 3! Way cheaper than I expected 📸</div>
-          <div class="likes">👍 63</div>
+      <div class="faq-item">
+        <button class="faq-question">
+          What are deals?
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="m6 9 6 6 6-6"/>
+          </svg>
+        </button>
+        <div class="faq-answer">
+          Sponsored deals are simple offers from our partners (apps, trials, surveys, etc.). Completing them helps us cover the cost of your gift card.
         </div>
       </div>
 
-      <div class="comment">
-        <div class="avatar" style="background:#fef3c7;color:#b45309;">CM</div>
-        <div class="comment-body">
-          <div class="comment-meta">
-            <span class="comment-name">Chloe M.</span>
-            <span class="comment-time">5h</span>
-          </div>
-          <div class="comment-text">DJI Osmo Pocket 3 came home with me. My shaky videos can retire now 😎</div>
-          <div class="likes">👍 47</div>
+      <div class="faq-item">
+        <button class="faq-question">
+          How many deals do I have to do?
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="m6 9 6 6 6-6"/>
+          </svg>
+        </button>
+        <div class="faq-answer">
+          Typically 3 to 5 sponsored deals must be completed and verified to qualify for the reward.
         </div>
       </div>
 
-      <div class="comment">
-        <div class="avatar" style="background:#d1fae5;color:#047857;">GL</div>
-        <div class="comment-body">
-          <div class="comment-meta">
-            <span class="comment-name">Grace L.</span>
-            <span class="comment-time">6h</span>
-          </div>
-          <div class="comment-text">Grabbed an air fryer at Target. Dinner just got a promotion 😂</div>
-          <div class="likes">👍 91</div>
+      <div class="faq-item">
+        <button class="faq-question">
+          When will I receive my reward?
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="m6 9 6 6 6-6"/>
+          </svg>
+        </button>
+        <div class="faq-answer">
+          Rewards are issued after all required deals are verified, generally within a few business days of completion.
         </div>
       </div>
-
-      <div class="comment">
-        <div class="avatar" style="background:#fce7f3;color:#9d174d;">OK</div>
-        <div class="comment-body">
-          <div class="comment-meta">
-            <span class="comment-name">Olivia K.</span>
-            <span class="comment-time">8h</span>
-          </div>
-          <div class="comment-text">Target grocery run turned into a new coffee maker too ☕ Oops.</div>
-          <div class="likes">👍 39</div>
-        </div>
-      </div>
-
-      <button class="load-more">Load more comments</button>
-    </section>
-
-    <!-- Bottom CTA -->
-    <section class="bottom-cta">
-      <a href="https://giftclick.org/aff_c?offer_id=1177&aff_id=145283" class="cta" target="_blank" rel="noopener">
-        START NOW →
-      </a>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-brand">
-      <div class="footer-logo">
-        <div class="dot"></div>
-        Target
-      </div>
-      <div class="footer-title">Rewards Club</div>
     </div>
-    <p>Independent promotion. Target Corporation. Open to US residents 18+.</p>
-    <p>© 2026 Rewards Club. All rights reserved.</p>
-  </footer>
 
-  <button class="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+    <div class="footer-note">
+      This is a promotional offer. Reward fulfillment subject to deal completion and verification.
+    </div>
+  </div>
+
+  <script>
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement;
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+        if (!isOpen) item.classList.add('open');
+      });
+    });
+
+    // Live messages that rotate every 3 seconds
+    const liveMessages = [
+      "Jessica M. from Texas just claimed her $500 gift card • 20 min ago",
+      "Marcus T. from Illinois claimed a $500 gift card • 5 min ago",
+      "Sophia L. from Florida just unlocked her reward • 8 min ago",
+      "Derek K. from Colorado claimed $500 gift card • 1 min ago",
+      "Aisha R. from New York just finished the steps •  15 min ago",
+      "Tyler J. from Arizona claimed his gift card • 11 min ago",
+      "Emily P. from Georgia just claimed $500 gift card • 3 min ago"
+    ];
+
+    function updateLiveFeed() {
+      const feed = document.getElementById('liveFeed');
+      const text = document.getElementById('liveText');
+      if (!feed || !text) return;
+      feed.style.opacity = '0';
+      setTimeout(() => {
+        text.textContent = liveMessages[Math.floor(Math.random() * liveMessages.length)];
+        feed.style.opacity = '1';
+      }, 300);
+    }
+
+    // Change message every 5 seconds
+    setInterval(updateLiveFeed, 3000);
+  </script>
 </body>
 </html>
