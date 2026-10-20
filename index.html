@@ -1,387 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Complete Your Registration – $500 Old Navy Gift Card</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Complete Your Registration | McDonald’s Disney Villains Boo Buckets</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --bg: #fff8f0;
+      --fg: #1a1a1a;
+      --muted: #5c4a3a;
+      --red: #da291c;
+      --yellow: #ffc72c;
+      --orange: #ff6b00;
+      --card: #ffffff;
+      --line: #f5e0c8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: #f4f6f9;
-      color: #1a1a1a;
+      font-family: 'Nunito', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      padding: 20px 16px;
       min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      padding: 40px 16px;
     }
 
-    .card {
-      width: 100%;
-      max-width: 520px;
-      background: #ffffff;
-      border-radius: 16px;
-      border: 1px solid #e5e7eb;
-      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
-      overflow: hidden;
+    .panel {
+      max-width: 640px;
+      margin: 0 auto;
+      background: var(--card);
+      border-radius: 24px;
+      padding: 32px 22px;
+      box-shadow: rgba(218, 41, 28, 0.22) 0px 20px 50px -18px;
     }
 
-    .content {
-      padding: 40px 36px 32px;
-    }
-
-    .logo {
-      width: 180px;
-      height: auto;
-      margin: 0 auto 22px;
-      display: block;
-    }
-
-    h1 {
+    header {
       text-align: center;
-      font-size: 32px;
-      font-weight: 700;
-      color: #003764;
+    }
+
+    .brand {
+      font-size: 1.9rem;
+      font-weight: 900;
+      color: var(--red);
       letter-spacing: -0.5px;
-      margin-bottom: 12px;
+      line-height: 1.15;
     }
 
-    .subtitle {
-      text-align: center;
-      font-size: 15px;
-      color: #6b7280;
-      margin-bottom: 32px;
-      line-height: 1.5;
-    }
-
-    .subtitle strong {
-      color: #111;
-      font-weight: 600;
-    }
-
-    .steps {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      margin-bottom: 28px;
-    }
-
-    .step {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      background: #f8fafc;
-      border: 1px solid #e5e7eb;
-      border-radius: 12px;
-      padding: 16px 18px;
-    }
-
-    .step-num {
-      width: 32px;
-      height: 32px;
-      background: #003764;
-      color: white;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 14px;
-      font-weight: 700;
-      flex-shrink: 0;
-    }
-
-    .step-text {
-      font-size: 14.5px;
-      color: #4b5563;
-      line-height: 1.4;
-    }
-
-    .step-text strong {
-      color: #111;
-      font-weight: 600;
-    }
-
-    .claim-btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      height: 56px;
-      background: #003764;
-      color: white;
-      font-size: 18px;
-      font-weight: 700;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      text-decoration: none;
-      border-radius: 999px;
-      transition: background 0.2s, transform 0.15s;
-      margin-bottom: 16px;
-    }
-
-    .claim-btn:hover {
-      background: #002a4d;
-      transform: translateY(-1px);
-    }
-
-    .disclaimer {
-      text-align: center;
-      font-size: 12.5px;
-      color: #6b7280;
-      line-height: 1.5;
-      margin-bottom: 20px;
-    }
-
-    .live-feed {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      background: #f0f7ff;
-      border: 1px solid #dbeafe;
-      border-radius: 10px;
-      padding: 12px 16px;
-      font-size: 13px;
-      color: #1e40af;
-      margin-bottom: 28px;
-      transition: opacity 0.3s;
-    }
-
-    .live-dot {
-      width: 8px;
-      height: 8px;
-      background: #22c55e;
-      border-radius: 50%;
-      flex-shrink: 0;
+    .brand span {
+      display: block;
+      font-size: 1.15rem;
+      color: #333;
+      font-weight: 800;
+      margin-top: 4px;
     }
 
     .divider {
-      height: 1px;
-      background: #e5e7eb;
-      margin: 0 36px 28px;
+      height: 5px;
+      width: 100px;
+      margin: 18px auto 0;
+      border-radius: 9px;
+      background: linear-gradient(90deg, var(--yellow), var(--red));
     }
 
-    .faq-section {
-      padding: 0 36px 28px;
+    h1 {
+      margin-top: 26px;
+      font-size: 1.95rem;
+      font-weight: 900;
+      line-height: 1.15;
     }
 
-    .faq-title {
-      font-size: 20px;
-      font-weight: 700;
-      color: #003764;
-      margin-bottom: 16px;
+    .lead {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 1.05rem;
+      line-height: 1.65;
     }
 
-    .faq-item {
-      border: 1px solid #e5e7eb;
-      border-radius: 10px;
-      margin-bottom: 10px;
-      overflow: hidden;
+    ol {
+      list-style: none;
+      margin-top: 28px;
+      display: grid;
+      gap: 14px;
     }
 
-    .faq-question {
-      width: 100%;
+    li.step {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      padding: 14px 16px;
-      background: #fff;
-      border: none;
-      font-size: 14.5px;
-      font-weight: 500;
-      color: #1a1a1a;
-      cursor: pointer;
-      text-align: left;
+      gap: 16px;
+      padding: 16px 18px;
+      border: 2px solid var(--line);
+      border-radius: 16px;
+      font-weight: 700;
     }
 
-    .faq-question:hover {
-      background: #f9fafb;
+    .num {
+      flex: 0 0 auto;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      font-weight: 800;
+      font-size: 1.1rem;
+      color: #fff;
+      background: linear-gradient(135deg, var(--yellow), var(--red));
     }
 
-    .chevron {
-      width: 18px;
-      height: 18px;
-      color: #9ca3af;
-      transition: transform 0.2s;
-      flex-shrink: 0;
-    }
-
-    .faq-item.open .chevron {
-      transform: rotate(180deg);
-    }
-
-    .faq-answer {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.25s ease, padding 0.25s ease;
-      font-size: 14px;
-      color: #4b5563;
-      line-height: 1.5;
-      padding: 0 16px;
-    }
-
-    .faq-item.open .faq-answer {
-      max-height: 120px;
-      padding: 0 16px 14px;
-    }
-
-    .footer-note {
+    .cta-wrap {
       text-align: center;
-      font-size: 12px;
-      color: #9ca3af;
-      padding: 16px 36px 24px;
-      border-top: 1px solid #f3f4f6;
-      line-height: 1.4;
+      margin-top: 26px;
     }
 
-    @media (max-width: 480px) {
-      .content { padding: 32px 24px 24px; }
-      h1 { font-size: 26px; }
-      .faq-section { padding: 0 24px 24px; }
-      .footer-note { padding: 16px 24px 20px; }
+    .cta {
+      display: block;
+      padding: 18px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--yellow), var(--red));
+      color: #fff;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 1.15rem;
+      letter-spacing: 0.04em;
+      box-shadow: 0 12px 24px -10px rgba(218, 41, 28, 0.55);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 28px -10px rgba(218, 41, 28, 0.6);
+    }
+
+    .note {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
+    h2 {
+      margin-top: 42px;
+      font-size: 1.5rem;
+      font-weight: 900;
+      text-align: center;
+    }
+
+    details {
+      margin-top: 12px;
+      border: 2px solid var(--line);
+      border-radius: 14px;
+      padding: 14px 16px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 800;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::before {
+      content: "▶";
+      display: inline-block;
+      margin-right: 10px;
+      font-size: 0.75em;
+      transition: transform 0.2s ease;
+    }
+
+    details[open] summary::before {
+      transform: rotate(90deg);
+    }
+
+    details p {
+      margin-top: 10px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    @media (min-width: 640px) {
+      .panel {
+        padding: 44px 40px;
+      }
+      h1 {
+        font-size: 2.3rem;
+      }
+      .brand {
+        font-size: 2.15rem;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="card">
-    <div class="content">
-      <!-- Logo matching the provided image -->
-      <svg class="logo" viewBox="0 0 320 70" xmlns="http://www.w3.org/2000/svg">
-        <ellipse cx="160" cy="35" rx="155" ry="32" fill="#003366"/>
-        <text x="160" y="43" text-anchor="middle" 
-              font-family="Arial Black, Helvetica Neue, Arial, sans-serif" 
-              font-size="28" font-weight="900" fill="#FFFFFF" letter-spacing="2">
-          OLD NAVY
-        </text>
-      </svg>
+  <main>
+    <article class="panel">
+      <header>
+        <p class="brand">
+          McDonald’s
+          <span>Disney Villains Boo Buckets</span>
+        </p>
+        <div class="divider"></div>
+        <h1>Complete Your Registration</h1>
+        <p class="lead">Follow these simple steps to complete your registration for the ($750) exclusive McDonald’s Disney Villains Boo Buckets offer.</p>
+      </header>
 
-      <h1>Complete Your Registration</h1>
-      <p class="subtitle">Follow these simple steps to claim your <strong>$500 Old Navy gift card</strong></p>
+      <ol>
+        <li class="step"><span class="num">1</span>Click on “Claim Now”</li>
+        <li class="step"><span class="num">2</span>Enter your email and basic information</li>
+        <li class="step"><span class="num">3</span>Complete 4–6 sponsored deals</li>
+        <li class="step"><span class="num">4</span>Get your exclusive Boo Buckets offer</li>
+      </ol>
 
-      <div class="steps">
-        <div class="step">
-          <div class="step-num">1</div>
-          <div class="step-text">Click on <strong>"Claim Now"</strong></div>
-        </div>
-        <div class="step">
-          <div class="step-num">2</div>
-          <div class="step-text">Enter your email and basic info</div>
-        </div>
-        <div class="step">
-          <div class="step-num">3</div>
-          <div class="step-text">Complete 3-5 sponsored deals</div>
-        </div>
-        <div class="step">
-          <div class="step-num">4</div>
-          <div class="step-text">Enjoy your <strong>$500 gift card!</strong></div>
-        </div>
+      <div class="cta-wrap">
+        <a class="cta" href="https://giftclick.org/aff_c?offer_id=3730&aff_id=145283" rel="nofollow sponsored">CLAIM NOW</a>
+        <p class="note">Eligibility and offer requirements apply. Review the full terms before participating.</p>
       </div>
 
-      <a href="https://giftclick.org/aff_c?offer_id=2567&aff_id=145283" class="claim-btn">CLAIM NOW</a>
+      <h2>Frequently Asked Questions</h2>
 
-      <p class="disclaimer">By clicking "Claim Now", you agree to complete the required steps to receive your gift card.</p>
+      <details>
+        <summary>How long does it take?</summary>
+        <p>Completion and processing times depend on the sponsored deals selected and the offer’s verification requirements.</p>
+      </details>
 
-      <div class="live-feed" id="liveFeed">
-        <div class="live-dot"></div>
-        <span id="liveText">Jessica M. from Texas just claimed her $500 gift card • 2 min ago</span>
-      </div>
-    </div>
+      <details>
+        <summary>What are sponsored deals?</summary>
+        <p>Sponsored deals are advertiser offers that may include registrations, purchases, or subscriptions. Check each deal’s terms and any costs before completing it.</p>
+      </details>
 
-    <div class="divider"></div>
+      <details>
+        <summary>How many offers do I complete?</summary>
+        <p>Follow the required number of sponsored deals listed on the offer page.</p>
+      </details>
 
-    <div class="faq-section">
-      <h2 class="faq-title">Frequently Asked Questions</h2>
-
-      <div class="faq-item">
-        <button class="faq-question">
-          How long do the deals take?
-          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="m6 9 6 6 6-6"/>
-          </svg>
-        </button>
-        <div class="faq-answer">
-          Most deals take only a few minutes each. The entire process is typically finished in a short time, depending on the offers you select.
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question">
-          What are deals?
-          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="m6 9 6 6 6-6"/>
-          </svg>
-        </button>
-        <div class="faq-answer">
-          Sponsored deals are simple offers from our partners (apps, trials, surveys, etc.). Completing them helps us cover the cost of your gift card.
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question">
-          How many deals do I have to do?
-          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="m6 9 6 6 6-6"/>
-          </svg>
-        </button>
-        <div class="faq-answer">
-          Typically 3 to 5 sponsored deals must be completed and verified to qualify for the reward.
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-question">
-          When will I receive my reward?
-          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="m6 9 6 6 6-6"/>
-          </svg>
-        </button>
-        <div class="faq-answer">
-          Rewards are issued after all required deals are verified, generally within a few business days of completion.
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-note">
-      This is a promotional offer. Reward fulfillment subject to deal completion and verification.
-    </div>
-  </div>
-
-  <script>
-    // FAQ accordion
-    document.querySelectorAll('.faq-question').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const item = btn.parentElement;
-        const isOpen = item.classList.contains('open');
-        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
-        if (!isOpen) item.classList.add('open');
-      });
-    });
-
-    // Live messages that rotate every 3 seconds
-    const liveMessages = [
-      "Jessica M. from Texas just claimed her $500 gift card • 20 min ago",
-      "Marcus T. from Illinois claimed a $500 gift card • 5 min ago",
-      "Sophia L. from Florida just unlocked her reward • 8 min ago",
-      "Derek K. from Colorado claimed $500 gift card • 1 min ago",
-      "Aisha R. from New York just finished the steps •  15 min ago",
-      "Tyler J. from Arizona claimed his gift card • 11 min ago",
-      "Emily P. from Georgia just claimed $500 gift card • 3 min ago"
-    ];
-
-    function updateLiveFeed() {
-      const feed = document.getElementById('liveFeed');
-      const text = document.getElementById('liveText');
-      if (!feed || !text) return;
-      feed.style.opacity = '0';
-      setTimeout(() => {
-        text.textContent = liveMessages[Math.floor(Math.random() * liveMessages.length)];
-        feed.style.opacity = '1';
-      }, 300);
-    }
-
-    // Change message every 5 seconds
-    setInterval(updateLiveFeed, 3000);
-  </script>
+      <details>
+        <summary>When is my reward processed?</summary>
+        <p>Reward processing begins after the required steps have been completed and verified, subject to the offer’s terms.</p>
+      </details>
+    </article>
+  </main>
 </body>
 </html>
